@@ -1,0 +1,37 @@
+@import 'libs/resetCSS';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/promo/promo';
+@import 'blocks/title';
+@import 'blocks/sidepanel';
+@import 'blocks/menu';
+@import 'blocks/about/about';
+@import 'blocks/resume/resume';
+@import 'blocks/skills/skills';
+@import 'blocks/portfolio/portfolio';
+@import 'blocks/price/price';
+@import 'blocks/contacts/contacts';
+
+@import 'blocks/media';
+@import 'blocks/promo/promo-media';
+@import 'blocks/about/about-media';
+@import 'blocks/resume/resume-media';
+@import 'blocks/skills/skills-media';
+@import 'blocks/portfolio/portfolio-media';
+@import 'blocks/price/price-media';
+@import 'blocks/contacts/contacts-media';
